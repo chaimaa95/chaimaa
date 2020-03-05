@@ -1,0 +1,6 @@
+<!ELEMENT mushaf (sura*)>
+<!ATTLIST sura nb_aya CDATA>
+<!ATTLIST sura id CDATA #REQUIRED>
+<!ATTLIST sura name CDATA #REQUIRED>
+<!ELEMENT sura (aya*)>
+<!ATTLIST aya id CDATA #REQUIRED>
